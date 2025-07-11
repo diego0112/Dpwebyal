@@ -1,0 +1,558 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Diseño y Progamación Web</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <!-- BOOTSTRAP CORE STYLE CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONT AWESOME CSS -->
+<link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+     <!-- FLEXSLIDER CSS -->
+<link href="assets/css/flexslider.css" rel="stylesheet" />
+    <!-- CUSTOM STYLE CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" />    
+  <!-- Google	Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css' />
+
+    <!-- En el <head> -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+</head>
+<body >
+   
+ <!-- Tu código de navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="menu" style="background-color:#0050af; ">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img class="logo-custom" src="assets/img/logoDPW.png" alt="" style="width:150px;">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="#home" style="color: white;">Carrera</a></li>
+        <li class="nav-item"><a class="nav-link" href="#features-sec" style="color: white;">Módulos Profesionales</a></li>
+        <li class="nav-item"><a class="nav-link" href="#faculty-sec" style="color: white;">Plana Docente</a></li>
+        <li class="nav-item"><a class="nav-link" href="#course-sec" style="color: white;">Plan de Estudios</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact-sec" style="color: white;">Testimonios</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Home Slider -->
+<div class="home-sec" id="home" style="margin-top:70px;">
+  <div class="overlay">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-12">
+          <div class="flexslider set-flexi" id="main-section">
+            <ul class="slides move-me">
+              <!-- Slider 01 -->
+              <li>
+                <h3>Diseño y Programación Web</h3>
+                <h1>THE UNIQUE METHOD</h1>
+                <a href="#features-sec" class="btn btn-info btn-lg">GET AWESOME</a>
+                <a href="#features-sec" class="btn btn-success btn-lg">FEATURE LIST</a>
+              </li>
+              <!-- Slider 02 -->
+              <li>
+                <h3>Diseño y Programación Web</h3>
+                <h1>UNMATCHED APPROACH</h1>
+                <a href="#features-sec" class="btn btn-primary btn-lg">GET AWESOME</a>
+                <a href="#features-sec" class="btn btn-danger btn-lg">FEATURE LIST</a>
+              </li>
+              <!-- Slider 03 -->
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Título de concepto -->
+<div class="tag-line text-center py-4">
+  <h2><i class="fa fa-circle-o-notch"></i> Concepto Referente a La Carrera <i class="fa fa-circle-o-notch"></i></h2>
+</div>
+
+<!-- Sección programa de estudios -->
+<div class="container my-5">
+  <div class="row align-items-center">
+    <!-- Imagen -->
+    <div class="col-md-6 mb-4 mb-md-0 d-flex justify-content-center">
+      <div class="card border-0 shadow" style="max-width: 250px; height: 250px;">
+        <img src="assets/img/pprincs.jpeg" class="img-fluid" alt="Imagen del programa" style="border-radius:30px; width:100%; height:100%; object-fit:cover;">
+      </div>
+    </div>
+    <!-- Texto -->
+    <div class="col-md-6" style="margin-top:50px;">
+      <h5 class="text-primary mb-3">Programa de estudios</h5>
+      <h2 class="mb-4">Diseño y Programación Web</h2>
+      <p style="text-align: justify;">
+        El Programa de Estudios de Diseño y Programación Web en el Instituto de Educación Superior Tecnológico Huanta está orientado a formar profesionales con competencias sólidas en el desarrollo y diseño de sitios web...
+      </p>
+      <div class="d-flex align-items-center mb-2">
+        <i class="fas fa-user-clock me-2 text-primary"></i>
+        <strong>Duración:</strong> 6 semestres (3 años)
+      </div>
+      <div class="d-flex align-items-center">
+        <i class="fas fa-user-tag me-2 text-primary"></i>
+        <strong>Modalidad:</strong> Presencial
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Módulos Profesionales -->
+<div class="container my-4">
+  <h2 class="text-center mb-4">Módulos Profesionales</h2>
+  <div class="row text-center">
+    <!-- Módulo 1 -->
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 border-0 shadow-sm p-3">
+        <div class="mb-3"><i class="fas fa-laptop-code fa-3x text-primary"></i></div>
+        <h5 class="fw-bold mb-3">Módulo 1: ANÁLISIS Y DISEÑO DE SISTEMAS WEB</h5>
+        <p style="text-align: justify;" class="small text-muted">Desarrollar la construcción de programas de los sistemas de información, de acuerdo al diseño funcional, estándares internacionales de TI, buenas prácticas de programación y políticas de seguridad de la organización</p>
+      </div>
+    </div>
+    <!-- Módulo 2 -->
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 border-0 shadow-sm p-3">
+        <div class="mb-3"><i class="fas fa-cloud-upload-alt fa-3x text-primary"></i></div>
+        <h5 class="fw-bold mb-3">Módulo 2: DESARROLLO DE APLICACIONES WEB</h5>
+        <p style="text-align: justify;" class="small text-muted">Desarrollar las pruebas integrales de los sistemas de información y servicios de TI en la fase de implantación, de acuerdo al diseño funcional, buenas pràcticas de TI y políticas de seguridad de la organización.</p>
+      </div>
+    </div>
+    <!-- Módulo 3 -->
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 border-0 shadow-sm p-3">
+        <div class="mb-3"><i class="fas fa-code fa-3x text-primary"></i></div>
+        <h5 class="fw-bold mb-3">Módulo 3: DISEÑO DE SERVICIOS WEB</h5>
+        <p style="text-align: justify;" class="small text-muted">Diseñar la presentación, animación, organización y navegación de los contenidos y servicios web, de acuerdo a las demandas del negocio, buenas prácticas de diseño, técnicas de diseño web, usabilidad y experiencia del usuario objetivo.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container my-4">
+  <h2 class="text-center mb-4">Plan de Estudios</h2>
+  <div class="row text-center">
+<!-- Accordion de Semestres -->
+<div class="accordion container my-4" id="semestresAccordion" >
+  <!-- Semestre 1 -->
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="heading1">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+        Semestre I
+      </button>
+    </h2>
+    <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#semestresAccordion">
+      <div class="accordion-body">
+        <!-- Aquí puedes poner la info correspondiente al semestre 1 -->
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <!-- Aquí colocamos tu tabla -->
+        <table class="table table-bordered table-striped table-hover">
+          <thead>
+            <tr>
+              <th>Unidad Didáctica</th>
+              <th>Créditos</th>
+              <th>Horas Semestrales</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Fundamentos de programación</td>
+              <td>4</td>
+              <td>96</td>
+            </tr>
+            <tr>
+              <td>Redes e internet</td>
+              <td>3</td>
+              <td>80</td>
+            </tr>
+            <tr>
+              <td>Análisis y diseño de sistemas</td>
+              <td>4</td>
+              <td>96</td>
+            </tr>
+            <tr>
+              <td>Introducción de base de datos</td>
+              <td>3</td>
+              <td>64</td>
+            </tr>
+            <tr>
+              <td>Arquitectura de computadoras</td>
+              <td>2</td>
+              <td>48</td>
+            </tr>
+            <tr>
+              <td>Comunicación oral</td>
+              <td>2</td>
+              <td>48</td>
+            </tr>
+            <tr>
+              <td>Aplicaciones en internet</td>
+              <td>2</td>
+              <td>48</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+  <!-- Semestre 2 -->
+  <div class="accordion-item" >
+    <h2 class="accordion-header" id="heading2">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+        Semestre II
+      </button>
+    </h2>
+    <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#semestresAccordion">
+      <div class="accordion-body">
+        <!-- Información del semestre 2 -->
+        <div id="collapseSemestre1" class="accordion-collapse collapse show" aria-labelledby="headingSemestre1" data-bs-parent="#accordionSemestres">
+      <div class="accordion-body">
+        <!-- Aquí colocas la tabla -->
+        <table class="table table-bordered table-striped table-hover">
+          <thead>
+            <tr>
+              <th>Unidad Didáctica</th>
+              <th>Créditos</th>
+              <th>Horas Semestrales</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Ofimática</td>
+              <td>2</td>
+              <td>48</td>
+            </tr>
+            <tr>
+              <td>Interpretación y producción textos</td>
+              <td>2</td>
+              <td>48</td>
+            </tr>
+            <tr>
+              <td>Metodología de desarrollo de software</td>
+              <td>3</td>
+              <td>80</td>
+            </tr>
+            <tr>
+              <td>Programación orientada a objetos</td>
+              <td>3</td>
+              <td>96</td>
+            </tr>
+            <tr>
+              <td>Arquitectura de servidores web</td>
+              <td>3</td>
+              <td>80</td>
+            </tr>
+            <tr>
+              <td>Aplicaciones sistematizadas</td>
+              <td>2</td>
+              <td>48</td>
+            </tr>
+            <tr>
+              <td>Taller de base de datos</td>
+              <td>3</td>
+              <td>80</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+  <!-- Semestre 3 -->
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="heading3">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+        Semestre III
+      </button>
+    </h2>
+    <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#semestresAccordion">
+      <div class="accordion-body">
+        <!-- Información del semestre 3 -->
+        <!-- Aquí la tabla -->
+        <table class="table table-bordered table-striped table-hover">
+          <thead>
+            <tr>
+              <th>Unidad Didáctica</th>
+              <th>Créditos</th>
+              <th>Horas Semestrales</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Metodología de desarrollo de software</td>
+              <td>3</td>
+              <td>80</td>
+            </tr>
+            <tr>
+              <td>Programación orientada a objetos</td>
+              <td>3</td>
+              <td>96</td>
+            </tr>
+            <tr>
+              <td>Arquitectura de servidores web</td>
+              <td>3</td>
+              <td>80</td>
+            </tr>
+            <tr>
+              <td>Aplicaciones sistematizadas</td>
+              <td>2</td>
+              <td>48</td>
+            </tr>
+            <tr>
+              <td>Gestión de proyectos informáticos</td>
+              <td>2</td>
+              <td>48</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <!-- Semestre 4 -->
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="heading4">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+        Semestre IV
+      </button>
+    </h2>
+    <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#semestresAccordion">
+      <div class="accordion-body">
+        <!-- Información del semestre 4 -->
+         <table class="table table-bordered table-striped table-hover">
+          <thead>
+            <tr>
+              <th>Unidad Didáctica</th>
+              <th>Créditos</th>
+              <th>Horas Semestrales</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Desarrollo de entornos web</td>
+              <td>4</td>
+              <td>112</td>
+            </tr>
+            <tr>
+              <td>Programación de soluciones web</td>
+              <td>5</td>
+              <td>128</td>
+            </tr>
+            <tr>
+              <td>Proyectos de software</td>
+              <td>3</td>
+              <td>64</td>
+            </tr>
+            <tr>
+              <td>Seguridad en aplicaciones web</td>
+              <td>2</td>
+              <td>48</td>
+            </tr>
+            <tr>
+              <td>Comprensión y redacción en inglés</td>
+              <td>2</td>
+              <td>48</td>
+            </tr>
+            <tr>
+              <td>Comportamiento ético</td>
+              <td>3</td>
+              <td>80</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <!-- Semestre 5 -->
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="heading5">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+        Semestre V
+      </button>
+    </h2>
+    <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#semestresAccordion">
+      <div class="accordion-body">
+        <!-- Información del semestre 5 -->
+        <table class="table table-bordered table-striped table-hover">
+          <thead>
+            <tr>
+              <th>Unidad Didáctica</th>
+              <th>Créditos</th>
+              <th>Horas Semestrales</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Programación de aplicaciones móviles</td>
+              <td>5</td>
+              <td>128</td>
+            </tr>
+            <tr>
+              <td>Marketing digital</td>
+              <td>3</td>
+              <td>64</td>
+            </tr>
+            <tr>
+              <td>Diseño de soluciones web</td>
+              <td>3</td>
+              <td>64</td>
+            </tr>
+            <tr>
+              <td>Gestión y administración de sitios web</td>
+              <td>2</td>
+              <td>48</td>
+            </tr>
+            <tr>
+              <td>Diagramación digital</td>
+              <td>3</td>
+              <td>80</td>
+            </tr>
+            <tr>
+              <td>Solución de problemas</td>
+              <td>2</td>
+              <td>48</td>
+            </tr>
+            <tr>
+              <td>Oportunidades de negocios</td>
+              <td>2</td>
+              <td>48</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <!-- Semestre 6 -->
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="heading6">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+        Semestre VI
+      </button>
+    </h2>
+    <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#semestresAccordion">
+      <div class="accordion-body">
+        <!-- Información del semestre 6 -->
+         <table class="table table-bordered table-striped table-hover">
+          <thead>
+            <tr>
+              <th>Unidad Didáctica</th>
+              <th>Créditos</th>
+              <th>Horas Semestrales</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Plataforma de servicios web</td>
+              <td>3</td>
+              <td>80</td>
+            </tr>
+            <tr>
+              <td>Ilustración y gráfica digital</td>
+              <td>5</td>
+              <td>128</td>
+            </tr>
+            <tr>
+              <td>Administración de servidores web</td>
+              <td>4</td>
+              <td>96</td>
+            </tr>
+            <tr>
+              <td>Comercio electrónico</td>
+              <td>5</td>
+              <td>128</td>
+            </tr>
+            <tr>
+              <td>Plan de negocios</td>
+              <td>2</td>
+              <td>48</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Como ejemplo final, la sección de contacto y footer -->
+<div id="contact-sec" style="background:#f8f9fa;padding:50px 0;">
+  <div class="container">
+    <h1 class="text-center mb-4">CONTACT US</h1>
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <!-- formulario o contenido -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-primary text-white pt-4" style="background-color:#0050af; ">
+  <div class="container">
+    <div class="row" style="margin-top:50px;">
+      <!-- Logo y descripción -->
+      <div class="col-md-3 mb-4">
+        <img src="assets/img/logoDPW.png" alt="Logo" class="mb-3" style="width:150px;">
+        <p>Carrera de "Diseño y Programación web"</p>
+      </div>
+      <!-- Redes sociales -->
+      <div class="col-md-3 mb-4">
+        <h5><strong>Redes Sociales</strong></h5>
+        <a href="https://www.facebook.com/profile.php?id=61577626055678" target="_blank"><img src="assets/img/Social/facebook.png" style="width:40px;"></a>
+        <a href="#"><img src="assets/img/Social/twit.png" style="width:55px;"></a>
+        <a href="#"><img src="assets/img/Social/titok.png" style="width:40px;"></a>
+      </div>
+      <!-- Información -->
+      <div class="col-md-3 mb-4">
+        <h5><strong>Información</strong></h5>
+        <p><i class="fas fa-map-marker-alt"></i> Jr. Córdova N° 650</p>
+        <p><i class="fas fa-phone"></i> Teléfono: (066) 322296</p>
+      </div>
+      <!-- Horario -->
+      <div class="col-md-3 mb-4">
+        <h5><strong>Horario de atención</strong></h5>
+        <p>Lun - Vie: 7:30 am - 1:15 pm</p>
+      </div>
+    </div>
+    <div class="text-center mt-3 pb-3">
+      <button class="btn btn-primary" style="margin-bottom:20px;" onclick="window.scrollTo({top:0,behavior:'smooth'});">
+        <i class="fas fa-angle-up"></i>
+      </button>
+      <p style="margin-top:10px;">&copy; 2025 Instituto de Educación Superior Tecnológico Público “Huanta”</p>
+    </div>
+  </div>
+</footer>
+     <!-- FOOTER SECTION END-->
+   
+    <!--  Jquery Core Script -->
+    <script src="assets/js/jquery-1.10.2.js"></script>
+    <!--  Core Bootstrap Script -->
+    <script src="assets/js/bootstrap.js"></script>
+    <!--  Flexslider Scripts --> 
+         <script src="assets/js/jquery.flexslider.js"></script>
+     <!--  Scrolling Reveal Script -->
+    <script src="assets/js/scrollReveal.js"></script>
+    <!--  Scroll Scripts --> 
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <!--  Custom Scripts --> 
+         <script src="assets/js/custom.js"></script>
+    <!-- Antes de cerrar -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>     
+</body>
+</html>
